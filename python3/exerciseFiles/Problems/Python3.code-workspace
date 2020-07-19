@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "Ex_Files_Python_EssT",
+		"path": "../../../../../Downloads/Ex_Files_Python_EssT"
+	},
+	{
+		"name": "python3",
+		"path": "../../.."
+	}
+],
+  "settings": {
+    "git.ignoreLimitWarning": true
+  }
+}
