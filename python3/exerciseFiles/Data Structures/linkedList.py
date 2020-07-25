@@ -16,6 +16,12 @@ class Node(object):
         self.next = next
 
 
+""" 
+linked lists dont contain nodes 
+- they have a head attribute and points to the head if one exists
+"""
+
+
 class LinkedList(object):
     def __init__(self, head=None):
         self.head = head

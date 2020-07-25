@@ -30,10 +30,16 @@ def binarySearch(item, dataset):
 
 
 def main():
-    data = [x for x in range(5, 100, 3)]
+    data = [x for x in range(5, 10, 3)]
     print(data)
     print(binarySearch(35, data))
+    data1 = [x for x in range(1, 8)]
+    data2 = [x for x in range(1, 10)]
+    print(str(data1)[1:-1])
+    print(str(data2)[1:-1])
+
+    data3 = map(add, data1, data2)
+    print(data3)
 
 
-if __name__ == "__main__":
-    main()
+main()

@@ -36,7 +36,8 @@ def casePlaindrome(data):
 
 
 def ignorePunPalindrome(data):
-    ignore = ['!', ',', '.', '?', ' ']
+    ignore = ['!', ':', ',', '?', '.', ' ', '@', '#', '$', '%', '^', '&', '*',
+              '_', '-', '{', '}', '\ ', '/', ']', '[', "'", '"', ';', '(', ')', '`']
     cleanData = [x for x in data if x not in ignore]
     print(cleanData)
     return (recursivePalindrome(cleanData))
